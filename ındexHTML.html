@@ -1,0 +1,81 @@
+<html>
+    <!DOCTYPE html>
+    <html lang="tr">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>form</title>
+    </head>
+    <body>
+        <form name="giris" action="giris.html" 
+        method="get" autocomplete="on">
+        <fieldset>
+            <legend> kişisel bilgiler</legend>
+        <label>Ad:</label> <input type="text" /> <br>
+        <label>soyad:</label> <input type="text"tabindex="1" value="0" /> <br>
+        <label>cinsiyet</label>
+        <input type="radio"name="cins" checked="on"/>erkek
+        <input type="radio"name="cins"/>Bayan
+        <label>Doğum tarihi:</label>
+        <input type="date"/><br>
+        <label>doğum saati:</label>
+        <input type="time"/> <br>
+        <label>E-posta:</label>
+        <input type="email"/> <br>
+        <label>telefon:</label>
+        <input type="tel"/> <br>
+        <label>yaş:</label>
+        <input type="number"min="15" max="130"/> <br>
+        <label>yaş:</label>
+        <input type="number"min="15" max="130"/> <br>
+        <select name="gezi"multiple>
+        <option value="34">istanbul</option>
+        <option value="35">izmir</option>
+        <option value="36">kars</option>
+        <option value="37">kastamonu</option>
+        
+        </select>
+        
+        </fieldset>
+        <input type="submit" value="gönder" /> <br>
+        <hr>
+        <fieldset>
+            <legend> üyelik bilgileri</legend>
+        <label>kullanıcı adı:</label> <input type="text" /> <br>
+        <label>şifre:</label> <input type="text" placeholder="şifre 1 er adet büyük harf küçük harf özel akrakter içermelidir" /> <br>
+    </fieldset>
+        <input type="submit" value="gönder"/>
+        <hr> <br>
+        <fieldset>
+            <legend>ilgi alanları</legend>
+            <label>hobilerimiz</label> <br/>
+            <input type="checkbox"name="k1"/>Basketbol
+            <input type="checkbox"name="k2"/>Futbol
+            <input type="checkbox"name="k3"/>Tiyatro <br>
+            <input type="checkbox"name="k4"/>kitap okuma
+            <input type="checkbox"name="k5"/>trekking
+            <input type="checkbox"name="k6"/>yüzme
+            <input type="checkbox"name="k6"/>diğer <br/>
+            <label>sevdiğiniz renk</label> <br/>
+            <input type="color"name="renk"/>
+            <label>kendinizi tanıtın:</label> <br/>
+            <textarea rows="5"cols="20"></textarea>
+            <label>film oylaması</label> 
+            <label>transformers başlangıç</label>
+            <meter min="0"low="40"high="90"max="100"value="70"> </meter> <br>
+            <label>enes batur hayalmi gerçekmi</label>
+            <meter min="0"low="20"high="50"max="100"value="20"> </meter> <br>
+            <label>çakallarla dans 5</label>
+            <meter min="0"low="40"high="90"max="100"value="10"> </meter> <br>
+        </fieldset>
+        <input type="submit" value="gönder"/>
+        <input type="reset" value="Temizle"/>
+        
+
+       
+
+
+
+        </form>
+    </body>
+    </html>

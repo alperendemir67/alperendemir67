@@ -1,0 +1,53 @@
+<html>
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>form</title>
+    </head>
+    <body>
+        <form name="giris" action=giris.html
+        method="get" autocomplete="on" ></form>
+        <fieldset>
+            <legend>kişisel bilgiler</legend>
+        <label>ad</label> <br>
+
+        <input type="text" /> <br>
+        <label>soyad</label> <br>
+        <input type="text" /> <br>
+        <label>cinsiyet</label> <br>
+        <input type="radio"name="cins"checked="on"/>erkek
+        <input type="radio"name="cins"/>kadın <br>
+        <label>hobiler</label> <br>
+        <input type="checkbox"name="tür"checked="on"/>kitap
+        <input type="checkbox"name="tür"/>müzik
+        <input type="checkbox"name="tür"/>spor
+    </fieldset> <br>
+    <fieldset>
+    <legend>diğer bilgiler</legend>
+
+     <select name="iller" size="1">
+     <option>ankara</option>
+     <option>istanbul</option>
+     <option>izmir</option>
+     <option>kars</option>
+        </select>
+        <br>
+        <label>ilçe</label> <br>
+
+        <input type="text" /> <br>
+        <textarea rows="10"cols="50"placeholder="benim hakkımda"></textarea> <br>
+        <label>favori renk</label> 
+            <input type="color"name="renk"/> <br> <br>
+            <label for="fotoğraf">fotoğraf yükle</label> <br>
+        <input type="file"name="fotoğraf">
+
+    </fieldset>
+
+
+
+
+        </form>
+    </body>
+    </html>
