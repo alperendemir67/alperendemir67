@@ -1,0 +1,35 @@
+#saha{
+    width: 1000px;
+    height: 380px;
+    background-image:url(resimm/WhatsApp\ Görsel\ 2024-11-19\ saat\ 10.57.54_5b03e560.jpg);
+    background-repeat: no-repeat;
+    position: relative;
+    background-size: 100% 100%;
+}
+#baslik {
+    background-color: black;
+    color: yellow;
+    font-size: 30px;
+    position: absolute;
+    top: 30px;
+    text-align: center;
+    width:100%;
+}
+.futbolcu{
+    position: absolute;
+    background-color: wheat;
+    border-radius: 5px;
+    width: 150px;
+    padding: 3px;
+    left: 100px;
+}
+#f1{
+    top: 160px;}
+    #f2{
+        top: 200px;}
+    .futbolcu::before{
+        content: url(resimm/WhatsApp\ Görsel\ 2024-11-19\ saat\ 10.57.49_aac29255.jpg);
+        padding-right: 5px;
+       
+    }
+    
