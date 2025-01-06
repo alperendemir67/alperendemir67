@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<script>
+    let s1 = 20;
+    function bigger(){
+        s1+=5;
+        document.getElementsByTagName("body")[0].style.backgroundColor="green";
+        document.getElementById("merhaba").style.fontSize=s1+"px";
+        document.getElementById("bilgi").innerText="Yazının Boyutu :"+s1+"piksel";
+    }
+    function smaller(){
+        s1-=5;
+        document.getElementsByTagName("body")[0].style.backgroundColor="red";
+        document.getElementById("merhaba").style.fontSize=s1+"px";
+        document.getElementById("bilgi").innerText="Yazının Boyutu :"+s1+"piksel";
+    }
+</script>
+<body>
+    <div style="display: flex;">
+        <button style="background-color: white; width: 40px; height: 40px;" onclick="bigger()">+</button>
+        <button style="background-color: white; width: 40px; height: 40px;" onclick="smaller()">-</button>
+        <p id="bilgi" style="margin-left: 5px; background-color: white;">Yazının Boyutu 20px</p>
+    </div>
+    <p id="merhaba">merhaba</p>
+</body>
+</html>

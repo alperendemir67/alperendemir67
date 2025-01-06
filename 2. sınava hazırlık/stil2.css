@@ -1,0 +1,56 @@
+.üst{
+    display: flex;  
+}
+
+.text {
+    margin-left: 10px; 
+    font-weight: bold;
+    color: brown;
+}
+body{
+    background-color: sandybrown;
+}
+.kutu1 img{
+    border-radius: 30px;
+    width: 98%;
+    height: 450px;
+}
+.menü{
+   
+    width: 98%;
+    height: 60px;
+    border-radius: 20px;
+    background-color: aliceblue;
+    
+    
+}
+.menü a {
+   
+    font-size: 1vw;
+    width: 20vw;
+    margin: 10px;
+    padding-top: 13px;
+    color: brown;
+    
+}
+.ürünn{
+    border-radius: 20px;
+    background-color: aliceblue;
+    width: 98%;
+    height: 150px;
+}
+.yazı{
+   padding-top: 10px;
+   padding-left: 30px;
+
+}
+.menu-btn {
+    background-color: white;
+    border: none; 
+    padding: 10px 20px; 
+    border-radius: 5px; 
+    font-size: 16px; 
+    cursor: pointer;
+    transition: background-color 0.2s, transform 0.5s;
+    justify-content: center;
+}

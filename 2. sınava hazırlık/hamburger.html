@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="stil2.css">
+    <script>
+        function hesapla(){
+            let s1,s2,s3,s4,sonuç
+            s1=Number(document.getElementById("sayi1").value);
+            s2=Number(document.getElementById("sayi2").value);
+            s3=Number(document.getElementById("sayi3").value);
+            s4=Number(document.getElementById("sayi4").value);
+            sonuç=  s1*s2+s3*s4;
+            
+            document.getElementById("sonuç").innerHTML=sonuç;
+        }
+        function resmiGoster1(){
+ document.getElementById("resim1").src="resimler/hamburger-02.jpg";
+}
+function resmiGoster2(){
+document.getElementById("resim1").src="resimler/hamburger-07.jpg";
+}
+function resmiGoster3(){
+document.getElementById("resim1").src="resimler/hamburger-09.jpg";
+}
+
+    </script>
+<body>
+    <div class="üst">
+        <div>
+        <img src="resimler/WhatsApp Görsel 2024-12-17 saat 11.00.13_cedc4603.jpg" height="120px"></div>
+       <div> <span class="text"><h2>HAMBURGER</h2></span> </div>
+    
+    </div>
+    <div class="kutu1">
+        <img src="resimler/hamburger-02.jpg" id="resim1" alt="">
+
+    </div>
+    <div class="buton">
+
+        <button class="menu-btn"  onmousemove="resmiGoster1()">Menü 1</button>
+        <button class="menu-btn"  onmousemove="resmiGoster2()">Menü 2</button>
+        <button class="menu-btn"  onmousemove="resmiGoster3()">Menü 3</button>
+    </div>
+
+    <div class="menü">
+        <a href=" #">Ana Sayfa</a>
+        <a href=" #">ürünler</a>
+        <a href=" #">iletişim</a>
+    </div>  
+    <br> 
+
+    <div class="ürünn">
+        1.ürün adet:<input type="text" id="sayi1"/>
+        1.ürün Fiyat: <input type="text" id="sayi2"/> <br>
+        2.ürün adet:<input type="text" id="sayi3"/>
+        2.ürün Fiyat:<input type="text" id="sayi4"/> <br>
+        sonuc:<span id="sonuç"></span> <br>
+        <button onclick="hesapla()">hesapla</button>
+    
+    </div>
+        
+
+
+    </div>
+
+    
+</body>
+</html>
