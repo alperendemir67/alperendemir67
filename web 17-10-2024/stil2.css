@@ -1,0 +1,9 @@
+div{
+  height: 25vh;
+  border: 0.2vw solid  black;
+  flex-grow: 1;
+}
+.kapsa{
+  display: flex;
+  background-color: seagreen;
+}

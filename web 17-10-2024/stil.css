@@ -1,0 +1,38 @@
+div{height: 10vh;
+
+border: 0.3vw solid #000;
+flex-grow: 1;
+}
+
+.kapsa{
+  display:flex;
+}
+
+.k1{
+  border-bottom-color: yellow;
+
+}
+.k2{
+  border-left-color: green;
+
+}
+.k3{
+  border-radius: 15px;/*köşe için  */
+
+}
+.k4{
+  border-style: dotted; /*çizginin tipi */
+
+}
+.k5{
+  border-top-style: groove;
+  flex-grow: 3;background-color: aquamarine;
+}
+.k6{
+  border-bottom-style: hidden;
+
+}
+.k7{
+  border-right: 10px dashed navy;
+
+}
