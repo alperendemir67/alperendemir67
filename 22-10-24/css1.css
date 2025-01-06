@@ -1,0 +1,6 @@
+div{ width: 70vw; border: solid gray 6px;}
+.k1{ background-color: aquamarine; height: 4vw; }
+.k2{ background-color: aquamarine; height: 10vw;}
+.k3{ background-color: aquamarine; height: 1vw;}
+.kapsa{display: flex; flex-wrap: inherit;}
+.k4{height: 1vw; background-color: gray;}
