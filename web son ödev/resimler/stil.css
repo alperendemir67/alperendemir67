@@ -1,0 +1,54 @@
+body{
+    background-image: url(ARKAAA.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    
+}
+.üst{
+    padding-left: 10vh;
+}
+
+.üst{
+    background-color: black;
+    height: 3vh;
+    padding: 5px;
+  }
+  .üst a{
+    color: sandybrown;
+    display: inline-block;
+    text-decoration: none;
+    border: 0px solid white;
+    text-align: center;
+    font-size: 1vw;
+    width: 13vw;
+  }
+  .üst a:hover{
+    color: black;
+    background-color: sandybrown;
+  }
+  .orta{
+    color: aliceblue;
+    
+  }
+  .orta2{
+    color: sandybrown;
+  }
+  .orta3{
+    color: aliceblue;
+  }
+  .alt2{
+    color: sandybrown;
+  }
+  .alt{
+    color: black;
+  }
+  .alt3{
+    color: aliceblue;
+ 
+  }
+  .alt3 img
+  {
+    position: absolute;
+    right:420px;
+  }
