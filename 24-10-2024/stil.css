@@ -1,0 +1,43 @@
+.kapsa{border: solid  sandybrown;
+    height: 7vh;
+    padding: 10px;
+    width: 100vw;
+    background-color: sandybrown;
+    color: azure;
+   
+   
+}
+.kapsa2{
+    border: solid darkslateblue;
+    height: 50vh;
+    width: 200vw;
+    background-color: darkslateblue;
+}
+.kapsa3{
+    border:  solid sandybrown;
+    height: 10vh;
+    padding: 5px;
+    width: 100vw;
+    background-color: sandybrown;
+    color: black;
+}
+a{text-decoration: none;
+    color: white;
+}
+.navbar {
+    display: flex;
+    justify-content: flex-end;
+    background-color: sandybrown;
+    padding: 1px;
+   
+}
+.navbar a {
+    margin-left: 10px;
+    text-decoration: none;
+    color: white;
+    font-weight: normal;
+}
+.navbar a:hover {
+    color: white;
+}
+
